@@ -55,7 +55,7 @@ const getData = async function(){
       const cards = document.querySelectorAll(".card")
       console.log(cards)
       for(let card of cards){
-        if (!card.textContent.toLowerCase().includes(Value)) {
+        if (!card.innerText.toLowerCase().includes(Value)) {
           card.style.display = "none";
         } else {
           card.style.display = "block";
