@@ -51,6 +51,7 @@ nav{
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1em;
+    
 }
 .figcaption{
     display: flex;
